@@ -1,0 +1,448 @@
+        /*  CSS Landing Page */
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .wrapper {
+            width: 1100px;
+            margin: auto;
+            position: relative;
+        }
+
+        .logo a {
+            font-size: 50px;
+            font-weight: 800;
+            float: left;
+            font-family: courier;
+            color: #364f6b;
+        }
+
+        .menu {
+            float: right;
+        }
+
+        nav {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            line-height: 80px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            background: #FFFFFF;
+            z-index: 1;
+            border-bottom: 1px solid #364f6b;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding: 0px 16px 0px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: auto;
+            display: flex;
+            margin-bottom: 50px;
+        }
+
+        .kolom {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .kolom .deskripsi {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'comic sans ms';
+            color: #364f6b;
+        }
+
+        .kolom1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color: #FFFFFF;
+        }
+
+        .kolom1 .deskripsi1 {
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'comic sans ms';
+            color: #FFFFFF;
+        }
+
+        h2 {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #364f6b;
+            width: 100%;
+            line-height: 50px;
+        }
+
+        .judul1 {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #FFFFFF;
+            width: 100%;
+            line-height: 50px;
+        }
+
+
+        a.tbl-biru {
+            background: #3f72af;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        button.tbl-biru {
+            background: #3f72af;
+            border-radius: 20px;
+            margin-top: 1px; /* Ubah dari 20px ke 10px */
+            padding: 15px 30px; /* Sesuaikan padding agar lebih proporsional */
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+            border: none;
+        }
+        
+        button.tbl-biru:hover {
+            background: #fc5185;
+            text-decoration: none;
+        }
+
+        a.tbl-biru:hover {
+            background: #fc5185;
+            text-decoration: none;
+        }
+
+        a.tbl-pink {
+            background: #fc5185;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        a.tbl-pink:hover {
+            background: #3f72af;
+            text-decoration: none;
+        }
+
+        .headingbiru {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #364F6B;
+            width: 100%;
+            line-height: 50px;
+        }
+
+        p {
+            margin: 10px 0px 10px 0px;
+            padding: 10px 0px 10px 0px;
+        }
+
+        .tengah {
+            text-align: center;
+            width: 100%;
+        }
+
+        .section-home {
+            margin-bottom: -24px;
+            /* Atur jarak antara setiap section */
+        }
+
+        .section-home1 {
+            margin-bottom: -24px;
+            /* Atur jarak antara setiap section */
+            background-color: #3f72af;
+        }
+
+        .gambar-kurikulum {
+            width: 270px;
+            /* Atur ukuran gambar */
+            height: 50%;
+            /* Biarkan tinggi gambar menyesuaikan proporsi aslinya */
+            margin-top: 20px;
+            /* Atur jarak atas gambar */
+            margin-bottom: 10px;
+            /* Atur jarak bawah gambar */
+            display: block;
+            /* Membuat gambar menjadi blok agar dapat mengatur margin */
+            margin-left: 20px;
+            /* Pusatkan gambar secara horizontal */
+            margin-right: 20px;
+            /* Pusatkan gambar secara horizontal */
+        }
+
+
+        .tutor-list {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .kartu-tutor {
+            width: 20%;
+            margin: 0 auto;
+        }
+
+        .kartu-tutor img {
+            width: 75%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .kartu-tutor p {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 25px;
+            text-align: center;
+            color: #364f6b;
+        }
+
+        .partner-list {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .kartu-partner {
+            width: 20%;
+            margin: 0 auto;
+        }
+
+        .kartu-partner img {
+            width: 200px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        #contact {
+            background: #3F72AF;
+            padding: 50px 0px 50px 0px;
+        }
+
+        #kolom1 {
+            background: #3F72AF;
+            padding: 50px 0px 50px 0px;
+        }
+
+        .footer {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+
+        .footer-section {
+            width: 20%;
+            margin: 0 auto;
+            color: #FFFFFF;
+        }
+
+        h3 {
+            font-family: 'comic sans ms';
+            font-weight: 800;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #FFFFFF;
+            width: 100%;
+            line-height: 50px;
+        }
+
+        #copyright {
+            text-align: center;
+            width: 100%;
+            padding: 50px 0px 50px 0px;
+            margin-top: 50px;
+        }
+
+        @media screen and (max-width: 991.98px) {
+            .wrapper {
+                width: 90%;
+            }
+
+            .logo a {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            nav .menu {
+                width: 100%;
+                margin: 0;
+            }
+
+            nav .menu ul {
+                text-align: center;
+                margin: auto;
+                line-height: 60px;
+            }
+
+            nav .menu ul li {
+                display: inline-block;
+                float: none;
+            }
+
+            section {
+                display: block;
+            }
+
+            section img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .kartu-tutor {
+                width: 50%;
+            }
+
+            .kartu-partner {
+                width: 50%;
+            }
+        }
+
+
+        /*Login */
+        table {
+            width: 600px;
+        }
+
+        @media screen and (max-width: 70px) {
+            table {
+                width: 90%;
+            }
+        }
+
+        table td {
+            padding: 5px;
+        }
+
+        td.label {
+            width: 40%;
+            margin-left: 100px;
+        }
+
+        
+
+        .input {
+            border: 1px solid #808080;
+            background-color: #DFDFDF;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        input.tbl-biru {
+            border: none;
+            background-color: #3f72af;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px 20px 15px 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input.tbl-biru:hover {
+            background-color: #FC5185;
+            text-decoration: none;
+
+        }
+
+        .error {
+            padding: 20px;
+            background-color: #f44336;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+
+        .sukses {
+            padding: 20px;
+            background-color: #2196f3;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+
+        .wrapper form table tr:nth-last-child(1) td {
+            padding-top: 20px; 
+            padding-bottom: 30px;
+            margin-bottom: 4000px;
+        }
+        
+        .login-links {
+            margin-top: 5px; /* Beri jarak dari input password */
+        }
+        
+       /* "Lupa Password" tetap rata kiri */
+        .forgot-password {
+        text-align: left;
+        margin-bottom: 1px;
+        font-size: 14px;
+        }
+
+        /* "Daftar" rata tengah */
+        .register-text {
+        text-align: left;
+        margin-top: 1px;
+        font-size: 14px;
+        }
+        
+        .forgot-password a,
+        .register-text a {
+            color: #5A2D82;
+            text-decoration: none;
+        }
+        
+        .forgot-password a:hover,
+        .register-text a:hover {
+            text-decoration: underline;
+        }
+        
+                

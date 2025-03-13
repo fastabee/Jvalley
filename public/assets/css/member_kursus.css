@@ -1,0 +1,825 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.checklist {
+    color: black;
+    font-weight: bold;
+    margin-left: 10px; 
+    
+}
+
+
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EAF0FF;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.member-kursus .modul-kursus {
+    margin-bottom: 520px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #364F6B;
+}
+
+
+
+.member-kursus {
+    padding: 15px 128px 115px 190px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.member-kursus .container-3 {
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.member-kursus .bagianmodul {
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    width: 281px;
+    box-sizing: border-box;
+}
+
+.member-kursus .isimodul {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    width: 281px;
+    height: 221px;
+}
+
+.member-kursus .container {
+    
+    margin-bottom: 88px;
+    display: flex;
+    flex-direction: row;
+    width: 1159px;
+    box-sizing: border-box;
+}
+
+.member-kursus .judulmodul {
+    margin: 0 147.9px 17px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #364F6B;
+}
+
+.member-kursus .judulmodul2 {
+    margin: 0 86.1px 17px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #364F6B;
+}
+
+.member-kursus .judulmodul3 {
+    margin: 0 95px 17px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #364F6B;
+}
+
+.member-kursus .judulmodul4 {
+    margin: 0 121px 17px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #364F6B;
+}
+
+.member-kursus .line1 {
+    background: #B1B1B1;
+    margin: 0 11px 9px 0;
+    width: 212px;
+    height: 1px;
+}
+
+.member-kursus .progress {
+    margin: 0 98px 17px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Amaranth';
+    font-weight: 400;
+    font-size: 20px;
+    height: auto;
+    color: #848484;
+    background-color: transparent;
+}
+
+/*  CSS VIDEO KURSUS */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.member-kursus .modul-kursus {
+    margin-bottom: 30px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #364F6B;
+}
+
+
+
+.member-kursus .buttonbelajardisini {
+    border-radius: 10px;
+    background: #3F72AF;
+    position: relative;
+    margin-right: 7px;
+    display: center;
+    padding: 7px 4px 12px 0;
+    width: 208px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.member-kursus .buttonbelajardisini:hover {
+    background: #364F6B;
+    text-decoration: none;
+}
+
+.buttonselesai {
+    border-radius: 10px;
+    background: #3F72AF;
+    position: relative;
+    margin-left: auto;
+    display: inline-block;
+    padding: 7px 7.4px 12px 0;
+    width: 208px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    float: right;
+    /* Menggeser tombol ke kanan */
+}
+
+.buttonselesai:hover {
+    background: #364F6B;
+    text-decoration: none;
+}
+
+.member-kursus .group-28 {
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 34px;
+    width: 281px;
+    box-sizing: border-box;
+}
+
+.member-kursus .container-1 {
+    display: flex;
+    flex-direction: row;
+    width: 1159px;
+    box-sizing: border-box;
+}
+
+
+
+.member-kursus .yuk-bisa-coding {
+    margin-right: 36px;
+    width: 824px;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 60px;
+    color: #364F6B;
+}
+
+.member-kursus .vector {
+    width: 36.4px;
+    height: 36.4px;
+}
+
+.member-kursus .iconperson {
+    margin-right: 24.6px;
+    display: flex;
+    width: 36.4px;
+    height: 36.4px;
+    box-sizing: border-box;
+}
+
+.member-kursus .nama-member {
+    margin: 6px 25.8px 6.4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-kursus .line-3 {
+    background: #000000;
+    margin: 6px 21px 6.4px 0;
+    width: 1px;
+    height: 24px;
+}
+
+.member-kursus .logout {
+    margin: 6px 0 6.4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-kursus .container-2 {
+    
+    margin: 18px 0 17.6px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+}
+
+.member-kursus .group-18 {
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 42px 128.1px 36px 128px;
+    width: 1440px;
+    box-sizing: border-box;
+}
+
+.member-kursus .line-2 {
+    background: #000000;
+    width: 1440px;
+    height: 1px;
+}
+
+.member-kursus .group-36 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.member-kursus {
+    background: #EAF0FF;
+    padding: 15px 128px 115px 190px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Video Kursus*/
+
+.member-video-kursus {
+    background: #000000;
+    margin: 6px 21px 6.4px 0;
+    width: 1px;
+    height: 24px;
+}
+
+.member-video-kursus .yuk-bisa-coding {
+    margin-right: 36px;
+    width: 824px;
+    overflow-wrap: break-word;
+    font-family: 'Alumni Sans';
+    font-weight: 700;
+    font-size: 60px;
+    color: #364F6B;
+}
+
+.member-video-kursus .vector {
+    width: 36.4px;
+    height: 36.4px;
+}
+
+.member-video-kursus .iconperson {
+    margin-right: 24.6px;
+    display: flex;
+    width: 36.4px;
+    height: 36.4px;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .nama-member {
+    margin: 6px 25.8px 6.4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-video-kursus .line-3 {
+    background: #000000;
+    margin: 6px 21px 6.4px 0;
+    width: 1px;
+    height: 24px;
+}
+
+.member-video-kursus .logout {
+    margin: 6px 0 6.4px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-video-kursus .container-1 {
+    margin: 18px 0 17.6px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .group-18 {
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 42px 128.1px 36px 128px;
+    width: 1440px;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .group-37 {
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .judulvideo {
+    margin: 0 8px 7px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #364F6B;
+
+}
+
+    .member-video-kursus .srcvideo {
+        border-radius: 20px;
+        background: 50% / cover no-repeat;
+        width: 711px;
+        height: 372px;
+        margin-bottom: 10px;
+    }
+
+.member-video-kursus .container-5 {
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+    margin-right: 61px;
+    display: flex;
+    flex-direction: column;
+    padding: 21px 28px 45px 27px;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .materi {
+    margin-bottom: 25px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #364F6B;
+    overflow-y: auto;
+}
+
+.member-video-kursus .pengenalan {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-video-kursus .container-7 {
+    border-radius: 5px;
+    background: #EAF0FF;
+    position: relative;
+    margin: 0 7px 19px 0;
+    padding: 17px 26px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .onview {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.member-video-kursus .diklik {
+    border-radius: 5px;
+    background: #3F72AF;
+    position: relative;
+    margin: 0 7px 19px 0;
+    padding: 18px 26px 16px 26px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #FFFFFF; /* Warna teks putih untuk latar belakang gelap */
+}
+
+.member-video-kursus .struktur-html {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-video-kursus .container {
+    border-radius: 5px;
+    background: #EAF0FF;
+    position: relative;
+    margin: 0 7px 19px 0;
+    padding: 13px 26px 21px 26px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #000000; /* Warna teks hitam untuk latar belakang terang */
+}
+.member-video-kursus .diklik a,
+.member-video-kursus .diklik span {
+    color: #FFFFFF; /* Warna teks putih untuk elemen a dan span dalam diklik */
+}
+.member-video-kursus .container a,
+.member-video-kursus .container span {
+    color: #000000; /* Warna teks hitam untuk elemen a dan span dalam container */
+}
+
+.member-video-kursus .heading-paragraph {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.member-video-kursus .container-3 {
+    border-radius: 5px;
+    background: #EAF0FF;
+    position: relative;
+    margin-right: 7px;
+    padding: 16px 31px 18px 31px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.member-video-kursus .container-6 {
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+    margin-bottom: 76px;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px 42px 40px 42px;
+    width: 449px;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 500px;
+}
+
+.member-video-kursus .container-2 {
+    max-width: 7110px; 
+    max-height: 500px; 
+    margin: 0 104px 0 160px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+    
+}
+
+.member-video-kursus {
+    background: #EAF0FF;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 392px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.member-kursus {
+    background: #EAF0FF;
+    padding: 15px 2px 120px 210px;
+    width: 100%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
